@@ -1,0 +1,22 @@
+.App {
+  --header_height: 60px;
+  display: flex;
+  justify-content: center; /* горизонтальное центрирование */
+  align-items: center; /* вертикальное центрирование */
+  height: 100vh; /* высота родителя равна высоте экрана */
+}
+
+.hw {
+  width: 1280px;
+  min-height: 373px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding-top: 25px;
+  padding-bottom: 32px;
+}
+
+.hwTitle {
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+}
