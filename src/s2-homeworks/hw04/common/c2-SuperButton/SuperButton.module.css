@@ -2,34 +2,80 @@
 }
 
 .disabled {
+  background-color: #004d99;
+  border-radius: 3px;
+  padding: 5px 24px;
+  width: 133px;
+  height: 30px;
+  opacity: 0.5;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #002e5c;
 }
 
 .secondary {
+  border: 1px solid #06c;
+  border-radius: 3px;
+  padding: 5px 24px;
+  width: 176px;
+  height: 30px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #06c;
 }
 
 .default {
+  background-color: #0066cc;
+  border-radius: 3px;
+  padding: 5px 24px;
+  width: 132px;
+  height: 30px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fff;
 }
 
 .red {
+  background-color: #cc1439;
+  border-radius: 3px;
+  padding: 5px 24px;
+  width: 129px;
+  height: 30px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fff;
 }
 
 .default:hover {
+  background: #0080ff;
 }
 
 .red:hover {
+  background: #ff1a47;
 }
 
 .secondary:hover {
+  background: #e5f0fa;
 }
 
-
 .default:active {
+  background: #0059b2;
 }
 
 .secondary:active {
+  background: #c9e5ff;
 }
 
 .red:active {
+  background: #b21232;
 }
 
 .button:disabled {
