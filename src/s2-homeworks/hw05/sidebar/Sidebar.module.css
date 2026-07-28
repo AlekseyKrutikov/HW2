@@ -1,25 +1,62 @@
 .sidebar {
+  position: fixed;
+  background: #fff;
+  transform: translateX(-100%);
+  width: 300px;
+  height: 100vh;
+  z-index: 1000; /* Чтобы был поверх всего */
+  overflow-y: auto; /* Скролл, если много пунктов */
+  padding: 20px;
+  transition: transform 0.3s ease;
 }
 
 .sidebar.open {
+  transform: translateX(0);
 }
 
 .background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  animation: fadeIn 0.3s ease;
 }
 
 .nav {
+  display: flex;
+  flex-direction: column;
+  row-gap: 45px;
+  margin-top: 30px;
+  margin-left: 70px;
 }
 
 .nav a {
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+  text-decoration: none;
 }
 
 .nav a:hover {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0059b2;
 }
 
 .nav a.active {
+  color: #58acff;
 }
 .close {
+  margin-left: 230px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 .close img {
+  width: 24px;
+  height: 24px;
 }
